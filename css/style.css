@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: yellow;
+}
+
+/* DEBUG:  */
+.box1 {
+  background-color: red;
+  height: 64px;
+}
+.box2 {
+  background-color: blue;
+  height: 64px;
+}
+.box3 {
+  background-color: green;
+  height: 64px;
+}
