@@ -6,8 +6,32 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-li a {
+header li a {
   color: #031c4e;
+  font-weight: 600;
+}
+
+/*UTILITIES */
+.font-color-white {
+  color:white;
+}
+.font-color-blue {
+  color: #031c4e;
+}
+.font-color-celeste {
+  color: #006aff;
+}
+
+.form {
+  background: white;
+}
+
+.background-celeste {
+  background: #579aff;
+}
+
+.white-transparent {
+  color: #bbcdff;
 }
 
 /* DEBUG:  */
@@ -26,9 +50,7 @@ li a {
 .box4 {
   background-color: pink;
 }
-.color-white {
-  color:white;
-}
+
 /*FINE DEBUG */
 
 /*HEADER */
