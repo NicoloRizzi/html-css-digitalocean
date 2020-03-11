@@ -22,3 +22,8 @@ header {
 .box4 {
   background-color: pink;
 }
+
+.contenitore-img {
+  max-width: 100%;
+  max-height: 100%;
+}
