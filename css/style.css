@@ -12,6 +12,9 @@ header li a {
 }
 
 /*UTILITIES */
+.contieni-img {
+  max-width: 160px;
+}
 .font-color-white {
   color:white;
 }
@@ -24,6 +27,9 @@ header li a {
 
 .form {
   background: white;
+	padding: 49px 0 27px 0;
+	border-radius: 5px;
+}
 }
 
 .background-celeste {
@@ -32,6 +38,10 @@ header li a {
 
 .white-transparent {
   color: #bbcdff;
+}
+
+.padding-box {
+  padding: 49px 0 36px 0;
 }
 
 /* DEBUG:  */
@@ -57,21 +67,20 @@ header li a {
 
 .contenitore-img {
   max-width: 200px;
+  padding-top: 18px;
 }
 
-.nav-bar-box {
-  padding: 20px 0;
-}
 
-.position-ul-nav-bar {
-  padding-top:8px;
-}
-
-.color-button {
+.-button {
   background: white;
   color: #006aff;
   border: 1px solid #006aff;
   border-radius: 3px;
+  padding: 15px;
+}
+
+header {
+  height: 65px;
 }
 
 /*JUMBOTRON */
