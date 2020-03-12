@@ -106,34 +106,16 @@ header li a {
 .display-inline-block {
   display: inline-block;
 }
+
+.background-white {
+  background-color: white;
+}
 /*FINE UTILITIES */
-
-
-/* DEBUG:  */
-.box1 {
-  background-color: red;
-  height: 64px;
-}
-.box2 {
-  background-color: blue;
-  height: 64px;
-}
-.box3 {
-  background-color: green;
-  height: 64px;
-}
-.box4 {
-  background-color: pink;
-}
-
-/*FINE DEBUG */
-
-
-
 
 
 
 /*HEADER */
+
 .width {
   width: 100%;
 }
@@ -150,9 +132,7 @@ header li a {
   border-radius: 3px;
 }
 
-header {
-  height: 65px;
-}
+
 
 
 
@@ -185,10 +165,20 @@ header {
 #Designed4devs {
   background-color: #f3f5f9;
 }
-
+/* SECTION SERVICE */
 #Service .service-table .row {
   border-bottom: 1px solid black;
   margin-left: 0;
   margin-right: 0;
+}
 
+
+/* SECTION GET STARTED */
+#Get-started {
+  background-color: #0033ae;
+}
+
+/* FOOTER */
+#contatti {
+  background-color: #031c4e;
 }
