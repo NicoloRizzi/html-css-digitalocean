@@ -17,11 +17,14 @@ header li a {
 
 /*UTILITIES */
 
+.dimensioni-img-DigitalOcean {
+  width: 200px;
+}
 .color-ul-grey {
   color: #7d879f;
 }
-.padding-top {
-  padding-top: 30px;
+.margin-top {
+  margin-top: 11px;
 }
 
 
@@ -95,6 +98,7 @@ header li a {
 	background:#006aff;
   border: 1px solid #52a8f3;
 }
+
 .cerchio-vuoto {
 	width:10px;
 	height:10px;
@@ -115,6 +119,11 @@ header li a {
 
 
 /*HEADER */
+
+header {
+  height: 65px;
+  padding-top: 20px;
+}
 
 .width {
   width: 100%;
@@ -142,6 +151,7 @@ header li a {
 .jumbotron {
   background-image: url(../assets/bg-banner-home.jpg);
   background-size: cover;
+  margin-bottom: 0;
 }
 .jumbotron h1 {
   font-size: 62px;
