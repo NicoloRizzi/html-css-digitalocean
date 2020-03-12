@@ -114,6 +114,11 @@ header li a {
 .background-white {
   background-color: white;
 }
+
+.center-paragraph {
+  max-width: 660px;
+  margin: 0 auto;
+}
 /*FINE UTILITIES */
 
 
@@ -140,7 +145,6 @@ header {
   border: 1px solid #006aff;
   border-radius: 3px;
 }
-
 
 
 
