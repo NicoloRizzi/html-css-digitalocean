@@ -138,7 +138,7 @@ header li a {
   width: 100%;
 }
 .contenitore-img {
-  max-width: 200px;
+  width: calc(100%/6 - 10px);
   padding-top: 18px;
 }
 
@@ -184,4 +184,11 @@ header {
 /*SECTION DESIGNED FOR DEVS*/
 #Designed4devs {
   background-color: #f3f5f9;
+}
+
+#Service .service-table .row {
+  border-bottom: 1px solid black;
+  margin-left: 0;
+  margin-right: 0;
+
 }
