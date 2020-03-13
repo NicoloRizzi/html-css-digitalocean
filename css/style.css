@@ -14,28 +14,26 @@ body {
 .dimensioni-img-DigitalOcean {
   width: 200px;
 }
+
 .color-ul-grey {
   color: #7d879f;
 }
+
 .margin-top {
   margin-top: 11px;
 }
-
 
 .font-color-grey {
   color:#8b95ab;
 }
 
-
 .font-color-white {
   color:white;
 }
 
-
 .font-color-blue {
   color: #031c4e;
 }
-
 
 .font-color-celeste {
   color: #006aff;
@@ -49,29 +47,23 @@ body {
   color: ##5c6a88;
 }
 
-
 .form {
   background: white;
 	padding: 49px 0 27px 0;
 	border-radius: 5px;
 }
 
-
 .background-celeste {
   background-color: #579aff;
 }
-
 
 .white-transparent {
   color: #bbcdff;
 }
 
-
 .padding-box {
   padding: 49px 0 36px 0;
 }
-
-
 
 .background-section {
   background: #b3def1;
@@ -79,7 +71,6 @@ body {
 
 .contieni-img-google  {
   max-width: 20px;
-
 }
 
 .cerchio {
@@ -126,6 +117,10 @@ body {
 .color-footer {
   color: #a6adbd;
 }
+
+.width100 {
+
+}
 /*FINE UTILITIES */
 
 
@@ -139,6 +134,7 @@ header li a {
 
 .width {
   max-width: 100%;
+  width: 100%;
 }
 
 .contenitore-img {
@@ -177,6 +173,14 @@ header li a {
   font-size: 14px;
 }
 
+.btn-google {
+  position: relative;
+}
+.btn-google img {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
 
 /*SECTION DEPLOY AND SCALE */
 #Deploy-and-scale ul li {
