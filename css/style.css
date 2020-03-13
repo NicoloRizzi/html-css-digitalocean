@@ -118,9 +118,11 @@ body {
   color: #a6adbd;
 }
 
-.width100 {
-
+.gallery-img {
+  padding: 0 10px;
+  max-width: 500px;
 }
+
 /*FINE UTILITIES */
 
 
@@ -196,6 +198,10 @@ header li a {
 
 #Designed4devs {
   background-color: #f3f5f9;
+}
+
+#Designed4devs i {
+  font-size: 30px;
 }
 /* SECTION SERVICE */
 
