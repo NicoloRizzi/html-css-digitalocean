@@ -9,12 +9,6 @@ body {
 }
 
 
-header li a {
-  color: #031c4e;
-  font-weight: 600;
-}
-
-
 /*UTILITIES */
 
 .dimensioni-img-DigitalOcean {
@@ -30,11 +24,6 @@ header li a {
 
 .font-color-grey {
   color:#8b95ab;
-}
-
-
-.contieni-img {
-  max-width: 160px;
 }
 
 
@@ -55,6 +44,7 @@ header li a {
 .font-color-dark-blue {
   color: #031c4e;
 }
+
 .font-color-light-grey {
   color: ##5c6a88;
 }
@@ -89,6 +79,7 @@ header li a {
 
 .contieni-img-google  {
   max-width: 20px;
+
 }
 
 .cerchio {
@@ -141,13 +132,20 @@ header li a {
 
 /*HEADER */
 
+header li a {
+  color: #031c4e;
+  font-weight: 600;
+}
+
 .width {
   width: 100%;
 }
+
 .contenitore-img {
   width: calc(100%/6 - 10px);
   padding-top: 18px;
 }
+
 
 
 .-button-sign-up-header {
@@ -175,6 +173,9 @@ header li a {
 .jumbotron p {
   font-size: 20px;
 }
+.jumbotron h4 {
+  font-size: 14px;
+}
 
 
 /*SECTION DEPLOY AND SCALE */
@@ -199,6 +200,7 @@ header li a {
 }
 
 #Dev-teams {
+  padding: 30px 0;
   background-color: #f3f5f9;
 }
 
