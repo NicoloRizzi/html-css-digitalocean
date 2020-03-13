@@ -131,6 +131,10 @@ header li a {
 .font-color-00d5d1 {
   color: #00d5d1;
 }
+
+.color-footer {
+  color: #a6adbd;
+}
 /*FINE UTILITIES */
 
 
@@ -207,4 +211,5 @@ header li a {
 /* FOOTER */
 #contatti {
   background-color: #031c4e;
+  padding: 30px 0;
 }
