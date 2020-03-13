@@ -189,14 +189,22 @@ header li a {
 
 
 /*SECTION DESIGNED FOR DEVS*/
+
 #Designed4devs {
   background-color: #f3f5f9;
 }
 /* SECTION SERVICE */
+
 #Service .service-table .row {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #fff;
   margin-left: 0;
   margin-right: 0;
+}
+#Service .service-table .row:last-child {
+  border-bottom: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-bottom: 50px;
 }
 
 #Dev-teams {
