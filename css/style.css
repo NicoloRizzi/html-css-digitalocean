@@ -119,16 +119,15 @@ header li a {
   max-width: 660px;
   margin: 0 auto;
 }
+
+.box-with-gradient {
+  background:linear-gradient(120deg, #0048c5,#00239e );
+}
 /*FINE UTILITIES */
 
 
 
 /*HEADER */
-
-header {
-  height: 65px;
-  padding-top: 20px;
-}
 
 .width {
   width: 100%;
