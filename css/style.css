@@ -138,7 +138,7 @@ header li a {
 }
 
 .width {
-  width: 100%;
+  max-width: 100%;
 }
 
 .contenitore-img {
