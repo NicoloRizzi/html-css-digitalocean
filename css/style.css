@@ -12,9 +12,10 @@ body {
 /*UTILITIES */
 
 .dimensioni-img-DigitalOcean {
-  width: 200px;
+  max-width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-
 .color-ul-grey {
   color: #7d879f;
 }
@@ -122,6 +123,13 @@ body {
   padding: 0 10px;
   max-width: 500px;
 }
+.-button-sign-up-header {
+  background: white;
+  color: #006aff;
+  border: 1px solid #006aff;
+  border-radius: 3px;
+  padding: 5px;
+}
 
 /*FINE UTILITIES */
 
@@ -144,19 +152,18 @@ header li a {
   padding-top: 18px;
 }
 
+header .navbar-default {
+  background-color: #fff;
+}
 
-
-.-button-sign-up-header {
+header .-button-sign-up-header {
   background: white;
   color: #006aff;
   border: 1px solid #006aff;
   border-radius: 3px;
   padding: 5px;
+  margin: 10px 0;
 }
-
-
-
-
 
 /*JUMBOTRON */
 
